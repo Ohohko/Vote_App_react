@@ -1,0 +1,40 @@
+body {
+  background: url(../assets/images/GettyImages-1368404093-1024x640.jpg) no-repeat center center/cover;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.graph {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 2rem;
+}
+
+td {
+  border: 2px solid black;
+  width: 30%;
+}
+
+tr{
+  border: 2px solid black;
+  width: 10%;
+}
+
+table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-direction: column;
+  width: 50%;
+  height: 50%;
+}
+
+button.reset {
+  width: 100%;
+}
+
+

@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.vote-div {
+  width: 100vw;
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Trump,
+.Biden{
+  width:50%;
+  height: 80%;
+  padding: 10px 10px 20px 10px;
+  border: 1px solid #BFBFBF;
+  border-radius: 10% 10%;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.Trump{
+  background: url(../assets/images/Donald_Trump.jpg) no-repeat center center/contain;
+}
+
+.Biden{
+  background: url(../assets/images/Jou.jpg) no-repeat center center/contain;
+}
+
+.vote,
+.again {
+  width: 5rem;
+  height: 5rem;
+
+  width: 40%;
+  height: 40%;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+}
+
+.hidden {
+  visibility: hidden;
+}

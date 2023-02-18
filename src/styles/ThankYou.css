@@ -1,0 +1,10 @@
+.flex {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: url(../assets/images/vote.png) no-repeat center center/contain;
+}

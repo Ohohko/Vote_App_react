@@ -1,0 +1,12 @@
+form {
+  background-color: #3379f4;
+  color: #f5f1f1;
+  width: 40vw;
+  height:60vh;
+}
+
+button {
+  width: 50%;
+  height: 20%;
+  font-size: 1rem;
+}

@@ -1,0 +1,18 @@
+.flex-intro {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  margin-bottom: 7rem;
+  background-color: #b11f1f;
+  color: white;
+  border: 5px solid #3939eb;
+  padding: 3% 6%;
+  font-size: 2rem;
+  cursor: pointer;
+}
