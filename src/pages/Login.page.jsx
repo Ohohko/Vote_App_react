@@ -71,7 +71,7 @@ const Login = ({ setPage }) => {
         1500,
         'To',
         2000,
-        'Vote 2023 USA!.',
+        'Vote 2023 USA!',
         2000,
       ]}
       wrapper="div"
