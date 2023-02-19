@@ -4,6 +4,7 @@ import { PAGES } from '../constants';
 import { FormRow, Modal } from '../components';
 import Wrapper from '../styles/styled/Login.styled';
 import '../styles/login.css';
+import { TypeAnimation } from 'react-type-animation'
 
 const initialState = {
   id: '',
@@ -64,6 +65,20 @@ const Login = ({ setPage }) => {
   return (
     <Wrapper className='full-page'>
       <h1>Vote App 2023</h1>
+       <TypeAnimation
+      sequence={[
+        'Welcome', 
+        1500,
+        'To',
+        2000,
+        'Vote 2023 USA!.',
+        2000,
+      ]}
+      wrapper="div"
+      cursor={true}
+      repeat={Infinity}
+      style={{ fontSize: '4em' }}
+    />   
       <form onSubmit={onSubmit}>
         <FormRow
           error={nameError}
